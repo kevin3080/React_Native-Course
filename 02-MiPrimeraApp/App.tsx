@@ -3,6 +3,7 @@ import {Text, View, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-nat
 // import { ContadorScreen } from './src/screens/ContadorScreen';
 import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen';
 import { DimencionesScreen } from './src/screens/DimencionesScreen';
+import { PositionScreen } from './src/screens/PositionScreen';
 
 
 
@@ -16,8 +17,8 @@ const App = () => {
       {/* estamos en el nivel superior, flex: 1 tomara toda la pantalla */}
       {/* <ContadorScreen/> */}
       {/* <BoxObjectModelScreen/> */}
-      <DimencionesScreen/>
-      
+      {/* <DimencionesScreen/> */}
+      <PositionScreen/>
 
     </SafeAreaView>
 
