@@ -1,9 +1,11 @@
 import React from 'react'
 import {Text, View, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native';
 // import { ContadorScreen } from './src/screens/ContadorScreen';
-import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen';
-import { DimencionesScreen } from './src/screens/DimencionesScreen';
-import { PositionScreen } from './src/screens/PositionScreen';
+//import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen';
+//import { DimencionesScreen } from './src/screens/DimencionesScreen';
+//import { PositionScreen } from './src/screens/PositionScreen';
+//import { FlexScreen } from './src/screens/FlexScreen';
+import { TareaScreen } from './src/screens/TareaScreen';
 
 
 
@@ -18,7 +20,9 @@ const App = () => {
       {/* <ContadorScreen/> */}
       {/* <BoxObjectModelScreen/> */}
       {/* <DimencionesScreen/> */}
-      <PositionScreen/>
+      {/* <PositionScreen/> */}
+      {/* <FlexScreen/> */}
+      <TareaScreen/>
 
     </SafeAreaView>
 
